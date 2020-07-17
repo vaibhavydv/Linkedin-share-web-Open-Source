@@ -13,5 +13,5 @@ if (!$accessToken) {
 
 $_SESSION['linkedInAccessToken'] = $accessToken;
 
-header("location: /li/profile.php");
+header("location: /profile.php");
 die();

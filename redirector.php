@@ -1,5 +1,12 @@
 <?php
+/* 
 
+Code by
+Vaibhav Yadav
+Full Stack Developer 
+(Surmount Soft)
+
+*/
 $type = $_GET['type'];
 switch ($type) {
     case 'text':

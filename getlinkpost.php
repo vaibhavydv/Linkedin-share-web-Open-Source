@@ -1,4 +1,12 @@
 <?php
+/* 
+
+Code by
+Vaibhav Yadav
+Full Stack Developer 
+(Surmount Soft)
+
+*/
 require "init.php";
 $profile = $linkedin->getPerson($_SESSION['linkedInAccessToken']);
 ?>
@@ -6,14 +14,14 @@ $profile = $linkedin->getPerson($_SESSION['linkedInAccessToken']);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Share with LinkedIn API v2</title>
+    <title>Share with LinkedIn v2</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         body, html {
             height: 100%;
         }
         .bg {
-            background-image: url("/images/bg.jpg");
+            background-image: url("/images/bg.png");
             height: 100%;
             background-position: center;
             background-repeat: no-repeat;
